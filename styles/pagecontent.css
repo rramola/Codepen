@@ -1,0 +1,109 @@
+.content-wrapper {
+    background-image: linear-gradient(to top left, black, #404040);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    height: 100%;
+}
+
+.content-wrapper > .left-page-wrapper {
+    display: flex;
+    width: 90%;
+    font-size: 1.8em;
+}
+
+.content-wrapper > .left-page-wrapper > .left-page-content-wrapper > .left-page-twotone-text-wrapper {
+    font-family: 'Yantramanav', sans-serif;
+    color: silver;
+    padding-top: 70px;
+    padding-left: 50px;
+    font-size: 1.3em;
+    letter-spacing: 1px;
+}
+
+.content-wrapper > .left-page-wrapper > .left-page-content-wrapper > .left-page-twotone-text-wrapper > .bold-white {
+    font-family: 'Lato', sans-serif;
+    color: white;
+    font-weight: 300;
+}
+
+.content-wrapper > .left-page-wrapper > .left-page-content-wrapper > .left-page-twotone-text-wrapper > i {
+    color:orange;
+}
+
+.content-wrapper > .left-page-wrapper > .left-page-content-wrapper > .left-page-maintext-wrapper {
+    font-family: 'Yantramanav', sans-serif;
+    color: silver;
+    font-weight: 600;
+    padding-top: 30px;
+    padding-left: 50px;
+    font-size: .9em;
+}
+.content-wrapper > .left-page-wrapper > .left-page-content-wrapper > .left-page-btns-wrapper {
+display: flex;
+padding-top: 20px;
+padding-left: 50px;
+}
+
+
+
+
+.content-wrapper > .left-page-wrapper > .left-page-content-wrapper > .left-page-btns-wrapper > .button-four-wrapper > .btnfour {
+    background-color: #66ff99;
+    height: 50px;
+    width: 235px;
+    border: none;
+    border-radius: 3px;
+    color: black;
+    font-size: .85em;
+    font-weight: 400; 
+}
+
+.content-wrapper > .left-page-wrapper > .left-page-content-wrapper > .left-page-btns-wrapper > .button-five-wrapper {
+    display: flex;
+    padding-left:10px;
+}
+
+.content-wrapper > .left-page-wrapper > .left-page-content-wrapper > .left-page-btns-wrapper > .button-five-wrapper > .btnfive {
+    background-color: black;
+    height: 48px;
+    width: 175px;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    font-size: .9em;
+    font-weight: 400;
+}
+
+/* .content-wrapper > .right-page-wrapper {
+    display: grid; 
+    grid-template-rows: 0fr;
+    width: 100%;
+    height: 100%;
+    
+} */
+
+.content-wrapper > .right-page-wrapper > .heading-text-wrapper {
+    display: flex;
+    height: 90px;
+    justify-content: center;
+    align-items: flex-end;
+    padding-left: 100px;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.2em;
+    font-weight: 600;
+
+}
+
+
+
+.content-wrapper > .right-page-wrapper > .heading-text-wrapper > .modified {
+    color: lightskyblue;
+
+}
+
+.content-wrapper > .right-page-wrapper > .image-wrapper {
+    display: flex;
+    justify-content: flex-end;
+}

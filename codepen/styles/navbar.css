@@ -1,0 +1,222 @@
+body {
+    background-image: linear-gradient(to top left, black, #404040);
+    margin:0px 
+}
+
+.navigation-wrapper {
+    display: flex;
+    background-color: black;
+    width: 100%;
+    height: 75px;
+}
+
+.navigation-wrapper > .leftcolumn {
+    display: flex;
+    width: 250px;
+    height: 100%;
+}
+
+.navigation-wrapper > .leftcolumn > .logo img{
+    width: 100%;
+    padding-top: 15px;
+    padding-left: 6px;
+
+}
+
+.navigation-wrapper > .centercolumn {
+    display: grid;
+    width: 400px;
+    padding-left: 50px;
+
+}
+
+.navigation-wrapper > .centercolumn > .explorer {
+    margin-top: 20px;
+    color: 	#CCCC00;
+    font-size: .9em;
+}
+.navigation-wrapper > .centercolumn > .links-wrapper {
+    display: flex;
+    margin-top: -15px;
+    justify-content: space-between;
+    font-size: 1.2em;
+}
+.navigation-wrapper > .centercolumn > .links-wrapper > .link a{
+   font-weight: 600;
+   color: white;
+   text-decoration: none;
+}
+
+.navigation-wrapper > .centercolumn > .links-wrapper > .spark {
+    color: gray;
+    text-decoration: none;
+}
+
+.navigation-wrapper > .centercolumn > .links-wrapper > .linkchev i{
+    color: gray;
+    font-size: 0.8em;
+    
+}
+
+.navigation-wrapper > .rightcolumn-wrapper {
+    display: flex;
+    width: 300px;
+    height: 75px;
+    padding-left: 108px;
+    justify-content: right;
+    
+}
+
+.navigation-wrapper > .rightcolumn-wrapper > .create-dropdown {
+    display: flex;
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+}
+
+.navigation-wrapper> .rightcolumn-wrapper > .create-dropdown > .btnone {
+    background-color: #404040;
+    border: none;
+    color: white;
+    font-size: 1.1em;
+    width: 100px;
+    height: 45px;
+    border-radius: 5px;
+
+}
+
+.navigation-wrapper > .rightcolumn-wrapper > .create-dropdown > .btnone i{
+    color: lime;
+   
+}
+
+.navigation-wrapper > .rightcolumn-wrapper > .search-wrapper i{
+    color: gray;
+    font-size: 2em;
+    padding-left: 20px;
+    padding-top: 25px;
+
+}
+
+.navigation-wrapper > .rightcolumn-wrapper > .login-wrapper {
+    display: flex;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-left: 20px;
+    padding-right: 10px;
+}
+
+.navigation-wrapper > .rightcolumn-wrapper > .login-wrapper > .btntwo {
+    background-color: #404040;
+    border: none;
+    color: white;
+    font-size: 1.1em;
+    width: 100px;
+    height: 45px;
+    border-radius: 5px;
+    
+}
+
+.navigation-wrapper > .rightcolumn-wrapper > .signup-wrapper {
+    display: flex;
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+}
+
+.navigation-wrapper > .rightcolumn-wrapper > .signup-wrapper > .btnthree {
+    background-color: #404040;
+    border: none;
+    color: white;
+    font-size: 1.1em;
+    width: 100px;
+    height: 45px;
+    border-radius: 5px;
+}
+
+
+
+
+.bottom-navvy {
+    display: flex;
+    flex-direction: row;
+    margin-top: 450px;
+    background-color: gray;
+    width: 100%;
+    height: 50px;
+    
+}
+
+.bottom-navvy > .teams {
+    width: 295px;
+    height: 50px;
+    background-color: #505050;
+    border: solid 1px #707070;
+    color: white;
+    font-size: 1em;
+    
+}
+
+.bottom-navvy > .teams > .tea {
+    color: white;
+    font-family: 'Rammetto One', sans-serif;
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+.bottom-navvy > .education {
+    width: 295px;
+    height: 50px;
+    background-color: #505050;
+    border: solid 1px #707070;
+    color: white;
+    font-size: 1em;
+
+}
+
+.bottom-navvy > .education > .edu {
+    font-family: 'Rammetto One', sans-serif;
+
+    color: white;
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+.bottom-navvy > .privacy {
+    width: 300px;
+    height: 50px;
+    background-color: #505050;
+    border: solid 1px #707070;
+    color: white;
+    font-size: 1em;
+}
+
+.bottom-navvy > .privacy > .priv {
+    color: white;
+    font-family: 'Rammetto One', sans-serif;
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+.bottom-navvy > .writing {
+    width: 300px;
+    height: 50px;
+    background-color: #505050;
+    border: solid 1px #707070;
+    color: white;
+    font-size: 1em;
+    
+}
+
+.bottom-navvy > .writing > .writ {
+    color: white;
+    font-family: 'Rammetto One', sans-serif;
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+.bottom-border{
+    background-color: #303030;
+    width: 100%;
+    height: 75px;
+}

@@ -1,0 +1,105 @@
+/* .page-wrapper > {
+    display: grid;
+    
+} */
+
+/* left page styles */
+.page-wrapper > .left-pagewrapper {
+    display: flex;
+    width: 650px;
+    height: 50px;
+    font-size: 2em;
+}
+
+.page-wrapper > .left-pagewrapper > .left-page-content > .left-page-twotone-text {
+    font-family: 'Yantramanav', sans-serif;
+    color: silver;
+    padding-top: 70px;
+    padding-left: 50px;
+    font-size: 1.1em;
+    letter-spacing: 1px;
+
+}
+
+.page-wrapper > .left-pagewrapper > .left-page-content > .left-page-twotone-text > .bold-white {
+    font-family: 'Lato', sans-serif;
+    color: white;
+    font-weight: 300;
+    
+}
+
+.page-wrapper > .left-pagewrapper > .left-page-content > .left-page-twotone-text i {
+    color:orange;
+}
+
+.page-wrapper > .left-pagewrapper > .left-page-content > .left-page-bottom-text {
+    font-family: 'Yantramanav', sans-serif;
+    color: silver;
+    font-weight: 600;
+    padding-top: 30px;
+    padding-left: 50px;
+    font-size: .9em;
+
+}
+
+
+.page-wrapper > .left-pagewrapper > .left-page-content > .left-page-btns >  .btnfour {
+    background-color: #66ff99;
+    height: 50px;
+    width: 235px;
+    margin-left:50px;
+    margin-top:30px;
+    border: none;
+    border-radius: 3px;
+    color: black;
+    font-size: .85em;
+    font-weight: 400;
+}
+
+
+.page-wrapper > .left-pagewrapper > .left-page-content > .left-page-btns > .btnfive {
+    background-color: black;
+    height: 48px;
+    width: 175px;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    font-size: .9em;
+    font-weight: 400;
+}
+
+/*right page styles*/
+
+.page-wrapper > .right-page-wrapper {
+    display: grid; 
+    padding-left: 700px;
+    height: 38px;
+    padding-top: 30px;
+}
+
+
+.page-wrapper > .right-page-wrapper > .heading-text {
+    height:20px;
+    width: 100%;
+}
+
+
+
+
+.page-wrapper > .right-page-wrapper > .image-wrapper> img {
+    width: 485px;
+    
+
+}
+
+
+.page-wrapper > .right-page-wrapper > .heading-text {
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.1em;
+    padding-bottom: 5px;
+}
+
+.page-wrapper > .right-page-wrapper > .heading-text > .modified {
+    color: lightskyblue;
+}

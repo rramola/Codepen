@@ -1,0 +1,138 @@
+.navigation-wrapper {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height:75px;
+    background-color: black;
+ }
+
+.navigation-wrapper > .left-column-wrapper {
+    display: flex;
+    width: 600px;
+    height: 75px;
+    align-items: center;
+} 
+
+.navigation-wrapper > .center-column-wrapper {
+    display: grid;
+    /* grid-template-columns: 1fr; */
+    grid-gap: 5px;
+    width: 400px;
+}
+
+.navigation-wrapper > .center-column-wrapper > .explore-text-wrapper {
+    color: #CCCC00;
+    font-size: .9em;
+}
+
+.navigation-wrapper > .center-column-wrapper > .links-wrapper {
+    display: flex;
+    width: 500px;
+    justify-content: space-between;
+}
+
+.navigation-wrapper > .center-column-wrapper > .links-wrapper > .link a{
+    display: flex;
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
+    width: 100px;
+    text-align: left;
+    font-size: 1.2em;
+}
+
+.navigation-wrapper > .center-column-wrapper > .links-wrapper > .spark {
+    display: flex;
+    padding-left: 30px;
+    color: silver;
+    text-decoration: none;
+}
+
+.navigation-wrapper > .center-column-wrapper > .links-wrapper > .linkchev {
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    width: 30px;
+}
+
+.navigation-wrapper > .center-column-wrapper > .links-wrapper > .linkchev i{
+    color: silver;
+    font-size: 0.8em;
+}
+
+.navigation-wrapper > .right-column-wrapper {
+    display: flex;
+    width:100%;
+    justify-content: flex-end;
+    padding-left: 100px;
+    padding-right:10px;
+}
+
+.navigation-wrapper> .right-column-wrapper > .dropdown-wrapper {
+    display: flex;
+    width: 110px;
+
+}
+
+
+.navigation-wrapper> .right-column-wrapper > .dropdown-wrapper > .btnone {
+    background-color: #404040;
+    border: none;
+    color: white;
+    font-size: 1.1em;
+    height: 45px;
+    width:100px;
+    border-radius: 5px;
+
+}
+
+.navigation-wrapper > .right-column-wrapper > .dropdown-wrapper > .btnone i{
+    color: lime;
+   
+}
+
+.navigation-wrapper > .right-column-wrapper > .search-wrapper {
+    display: flex;
+    width: 75px;
+    align-items: center;
+    justify-content: center;
+}
+
+.navigation-wrapper > .right-column-wrapper > .search-wrapper i{
+    color: gray;
+    font-size: 2em;
+    
+}
+
+.navigation-wrapper > .right-column-wrapper > .login-wrapper {
+    display: flex;
+    width: 110px;
+   
+}
+
+.navigation-wrapper > .right-column-wrapper > .login-wrapper > .btntwo {
+    background-color: #404040;
+    border: none;
+    color: white;
+    font-size: 1.1em;
+    width: 100px;
+    height: 45px;
+    border-radius: 5px;
+    
+}
+      
+.navigation-wrapper > .right-column-wrapper > .signup-wrapper {
+    display: flex;
+    width: 100px;
+}
+
+.navigation-wrapper > .right-column-wrapper > .signup-wrapper > .btnthree {
+    background-color: #404040;
+    border: none;
+    color: white;
+    font-size: 1.1em;
+    width: 100px;
+    height: 45px;
+    border-radius: 5px;
+}
+
